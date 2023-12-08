@@ -38,7 +38,8 @@
     margin-left: .4em;
 }
 
-.search_box input{
+.search_box input, input:focus{
+    outline: none;
     border: none;
     border-radius: 8px;
     padding: .5em;
@@ -71,4 +72,8 @@
 .date_box{
     display: flex;
     flex-direction: column;
+}
+
+.weather_card_container{
+    display: flex;
 }

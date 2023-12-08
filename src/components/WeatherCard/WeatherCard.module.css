@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 134px;
+    width: 175px;
     margin: 0 .4em;
     text-align: center;
 }
@@ -13,10 +13,17 @@
     color: #FFFFFF;
     border-radius: 7px;
 }
+.head p{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.head img{
+    width: 100px;
+}
 .head{
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #FFFFFF33;
-    font-size: 1rem;
-    font-weight: 700;
     margin: .5em;
 }
 
